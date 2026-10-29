@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Selectores CSS</title>
+
+    <!-- Enlace externo al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="encabezado">
+        <h1>Aprendiendo Selectores CSS</h1>
+        <p>Descubre los diferentes tipos de selectores en CSS</p>
+    </header>
+
+    <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#selectores">Selectores</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main id="inicio">
+        <section class="contenido">
+            <h2>¿Qué son los selectores CSS?</h2>
+            <p>
+                Los selectores CSS permiten elegir elementos HTML
+                para aplicarles colores, tamaños, márgenes y otros estilos.
+            </p>
+
+            <div class="tarjeta">
+                <h3>Selector por clase</h3>
+                <p>Se utiliza el punto para seleccionar una clase.</p>
+            </div>
+
+            <div class="tarjeta especial">
+                <h3>Selector combinado</h3>
+                <p>Permite combinar diferentes criterios de selección.</p>
+            </div>
+
+            <h2 id="selectores">Tipos de selectores</h2>
+
+            <ul class="lista">
+                <li>Selector universal</li>
+                <li>Selector de etiqueta</li>
+                <li>Selector descendente</li>
+                <li>Selector por clase</li>
+                <li>Selector por identificador</li>
+                <li>Selector hijo directo</li>
+                <li>Selector adyacente</li>
+                <li>Selector general de hermanos</li>
+                <li>Selector por atributo</li>
+            </ul>
+
+            <h3>Formulario de contacto</h3>
+
+            <form id="contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"
+                       name="nombre" placeholder="Escribe tu nombre">
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo"
+                       name="correo" placeholder="ejemplo@gmail.com">
+
+                <button type="submit">Enviar información</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico de Ingeniería de Software</p>
+    </footer>
+
+</body>
+</html>
